@@ -1,0 +1,14 @@
+test_suites_path: C:\Robot Framework\Resource\RF Files\Regression Test\Scripts
+output_path: C:\Robot Framework\Output\Tests_output
+suites_list:
+  - BD-8_Barcode_Drug_Label_Test
+  - BD-8_Connect_to_Pump_-_Auto_Success
+  - BD-8_Connect_to_Pump_-_Manual_Failure
+  - BD-8_Net_Config_Regression_Test
+  - BD-8_Regression_Tests
+  - BD-8_Unit_Test_For_Bolus_Added_To_Data_Set
+  - BD-8_Workflow_Regression_Tests
+  - PCU_logs
+
+console_redirect: true
+log_test: PCU_logs.robot
